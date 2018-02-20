@@ -1,0 +1,1 @@
+Sample web application that emulates basic ATM operations: check balance, withdraw, deposit. Identification by PIN.
