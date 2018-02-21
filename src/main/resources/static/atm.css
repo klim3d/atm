@@ -1,0 +1,21 @@
+
+@import url(http://fonts.googleapis.com/css?family=Righteous);
+@import url(http://fonts.googleapis.com/css?family=Russo+One);
+
+body {
+  font-family: 'Russo One', sans-serif;
+  margin: 0px auto;
+  text-align: center;
+  width: 700px;
+}
+
+.header {
+  margin: 50px 0px;
+}
+
+.title, .amount {
+  color: #F52F4F;
+  font-family: 'Righteous', cursive;
+  font-size: 50px;
+}
+

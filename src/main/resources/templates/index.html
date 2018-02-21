@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+<head>
+    <title>Page</title>
+    <script type="text/javascript" src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js" />
+    <script type="text/javascript" th:src="@{/atm.js}" />
+    <link rel="stylesheet" type="text/css" th:href="@{/atm.css}" />
+</head>
+<body onload="init()">
+
+<div class="header">
+    <div class="title">Bank</div>
+</div>
+
+<div class="pin-div">
+    <h2>Please enter your PIN code</h2>
+    <input class="pin-input" type="text" placeholder="enter PIN code" />
+    <input class="pin-button" type="button" value="Enter" onclick="pinEnter()"/>
+</div>
+
+<div class="balance">
+    <h2>Your account balance is</h2>
+    <div class="amount">$0</div>
+    <input class="amount-input" type="text" placeholder="enter an amount" />
+    <input class="deposit" type="button" value="Deposit" onclick="update(this)"/>
+    <input class="withdraw" type="button" value="Withdraw" onclick="update(this)"/>
+</div>
+
+</body>
+</html>
